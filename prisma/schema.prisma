@@ -8,7 +8,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = "mysql://cargo007_sveltekit:AX2k4c2@&y@cargo007.mysql.tools:3306/cargo007_sveltekit"
 }
 
 model User {
